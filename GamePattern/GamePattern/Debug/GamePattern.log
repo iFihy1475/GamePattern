@@ -1,0 +1,18 @@
+﻿  command_actor.cpp
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command.h(12): error C2061: syntax error: identifier 'GameActor'
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command.h(18): error C2061: syntax error: identifier 'GameActor'
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command.h(20): error C2065: 'actor': undeclared identifier
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command.h(20): error C2228: left of '.jump' must have class/struct/union
+  c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command.h(20): note: type is 'unknown-type'
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command_actor.cpp(9): error C2065: 'BUTTON_X': undeclared identifier
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command_actor.cpp(9): error C3861: 'isPressed': identifier not found
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command_actor.cpp(10): error C2065: 'BUTTON_Y': undeclared identifier
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command_actor.cpp(10): error C3861: 'isPressed': identifier not found
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command_actor.cpp(11): error C2065: 'BUTTON_A': undeclared identifier
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command_actor.cpp(11): error C3861: 'isPressed': identifier not found
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command_actor.cpp(12): error C2065: 'BUTTON_B': undeclared identifier
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command_actor.cpp(12): error C3861: 'isPressed': identifier not found
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command_actor.cpp(20): error C2275: 'InputHandler': illegal use of this type as an expression
+  c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command.h(25): note: see declaration of 'InputHandler'
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command_actor.cpp(20): error C2228: left of '.handleInput' must have class/struct/union
+c:\users\ifihy\desktop\git\gamepattern\gamepattern\gamepattern\command_actor.cpp(25): error C2065: 'actor': undeclared identifier

@@ -22,7 +22,7 @@ public:
 	}
 };
 
-class JumpCommand : public Command
+class FireCommand : public Command
 {
 public:
 	virtual void execute()
