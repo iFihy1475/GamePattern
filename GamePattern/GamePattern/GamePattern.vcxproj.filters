@@ -13,27 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\command">
+    <Filter Include="Source Files\Command">
       <UniqueIdentifier>{1b02c09c-2ddd-45ae-9842-1443dce752f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Flyweight">
+      <UniqueIdentifier>{761f8ac2-2462-43b2-8e68-5c78f62cc083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Command">
+      <UniqueIdentifier>{1cb13e4f-fc49-4fbb-b65a-2ef268ed4925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Flyweight">
+      <UniqueIdentifier>{8fba4fc5-c850-4a95-b2b3-8056608c4470}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="command_pattern.cpp">
-      <Filter>Source Files\command</Filter>
+      <Filter>Source Files\Command</Filter>
     </ClCompile>
     <ClCompile Include="command_actor.cpp">
-      <Filter>Source Files\command</Filter>
+      <Filter>Source Files\Command</Filter>
     </ClCompile>
     <ClCompile Include="command_undo_redo.cpp">
-      <Filter>Source Files\command</Filter>
+      <Filter>Source Files\Command</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="command.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="command_move.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="command.h">
+      <Filter>Header Files\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="flyweight.h">
+      <Filter>Header Files\Flyweight</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
